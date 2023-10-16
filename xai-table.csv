@@ -1,0 +1,37 @@
+Name,Zeitpunkt,Anwendbarkeit,Beschraenkung,Ebene,Funktionsweise,Erklaerbarkeit
+Causal Models,Ante-hoc,-,-,Lokal,Entwicklungsbegleitend,Antworten mit Begruendung
+TEVM,Ante-hoc,-,-,Lokal,Entwicklungsbegleitend,Antworten mit Begruendung
+SISTA,Ante-hoc,-,-,Global,Entwicklungsbegleitend,Intrinsisch
+Whitebox Models,Ante-hoc,-,-,Global,Entwicklungsbegleitend,Intrinsisch
+X-NeSyL,Ante-hoc,-,-,Global,Entwicklungsbegleitend,Intrinsisch
+ASTRID,Post-hoc,Modell-agnostisch,Keine,Lokal,Berechnung der Feature-Relevanz,Feature-Relevanz
+ASV,Post-hoc,Modell-agnostisch,Keine,Lokal,Berechnung der Feature-Relevanz,Feature-Relevanz
+Break-Down,Post-hoc,Modell-agnostisch,Keine,Lokal,Berechnung der Feature-Relevanz,Feature-Relevanz
+SHAP,Post-hoc,Modell-agnostisch,Keine,Lokal,Berechnung der Feature-Relevanz,Feature-Relevanz
+Shapley Flow,Post-hoc,Modell-agnostisch,Keine,Lokal,Berechnung der Feature-Relevanz,Feature-Relevanz
+Meaningful Perturbations,Post-hoc,Modell-agnostisch,Keine,Lokal,Berechnung der Feature-Relevanz,Visuell
+Counterfactual Explanations,Post-hoc,Modell-agnostisch,Keine,Lokal,Erzeugen von Gegenbeispielen,Beispiele
+Anchors,Post-hoc,Modell-agnostisch,Keine,Lokal,Ersetzen des Ziel-Modells,Intrinsisch
+AraucanaXAI,Post-hoc,Modell-agnostisch,Keine,Lokal,Ersetzen des Ziel-Modells,Intrinsisch
+DarkSight,Post-hoc,Modell-agnostisch,Keine,Lokal,Ersetzen des Ziel-Modells,Intrinsisch
+LIME,Post-hoc,Modell-agnostisch,Keine,Lokal,Ersetzen des Ziel-Modells,Intrinsisch
+LORE,Post-hoc,Modell-agnostisch,Keine,Lokal,Ersetzen des Ziel-Modells,Intrinsisch
+ICE,Post-hoc,Modell-agnostisch,Keine,Global,Berechnung der Feature-Relevanz,Plots
+PDP,Post-hoc,Modell-agnostisch,Keine,Global,Berechnung der Feature-Relevanz,Plots
+GSA,Post-hoc,Modell-agnostisch,Keine,Global,Berechnung der Feature-Sensitivitaet,Plots
+Integrated Gradients,Post-hoc,Modell-spezifisch,ANN,Lokal,Berechnung der Feature-Relevanz,Visuell
+PDA,Post-hoc,Modell-spezifisch,ANN,Lokal,Berechnung der Feature-Relevanz,Visuell
+SmoothGrad,Post-hoc,Modell-spezifisch,ANN,Lokal,Berechnung der Feature-Sensitivitaet,Visuell
+DTD,Post-hoc,Modell-spezifisch,ANN,Lokal,Eingriff in Ebenen des Modells,Visuell
+LRP,Post-hoc,Modell-spezifisch,ANN,Lokal,Eingriff in Ebenen des Modells,Visuell
+TCAV,Post-hoc,Modell-spezifisch,ANN,Global,Berechnung der Konzept-Relevanz,Konzept-Relevanz
+Grad-CAM,Post-hoc,Modell-spezifisch,CNN,Lokal,Eingriff in Ebenen des Modells,Visuell
+Interpreting CNNs via Decision Trees,Post-hoc,Modell-spezifisch,CNN,Lokal,Ersetzen des Ziel-Modells,Intrinsisch
+Explaining RNN Predictions in Sentiment Analysis,Post-hoc,Modell-spezifisch,RNN,Lokal,Eingriff in Ebenen des Modells,Visuell
+Automatic Rule Extraction From LSTMs,Post-hoc,Modell-spezifisch,RNN,Lokal,Ersetzen des Ziel-Modells,Intrinsisch
+GrapLIME,Post-hoc,Modell-spezifisch,GNN,Lokal,Ersetzen des Ziel-Modells,Intrinsisch
+XGNN,Post-hoc,Modell-spezifisch,GNN,Global,Erzeugen von relevanten Beispielen,Beispiele
+Random Forest Feature Contributions,Post-hoc,Modell-spezifisch,RF,Lokal,Berechnung der Feature-Relevanz,Feature-Relevanz
+Forest Floor,Post-hoc,Modell-spezifisch,RF,Global,Berechnung der Feature-Relevanz,Plots
+Contribution Propagation,Post-hoc,Modell-spezifisch,SVM,Lokal,Berechnung der Feature-Relevanz,Visuell
+Eclectic Rule-Extraction,Post-hoc,Modell-spezifisch,SVM,Lokal,Ersetzen des Ziel-Modells,Intrinsisch
